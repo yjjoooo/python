@@ -44,7 +44,7 @@ def main():
     try:
         pym.script_start()
     except:
-        logging.error('############ Main Funtion Error')
+        logging.error('############ Main Function Error')
         logging.error(traceback.format_exc())
     
 ''' functions '''
